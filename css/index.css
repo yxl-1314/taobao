@@ -1,0 +1,135 @@
+
+/* 主体内容 */
+main {
+    background: #f4f4f4;
+}
+main .main_con {
+    height: 30px;
+    line-height: 30px;
+}
+main .main_con>span {
+    float: left;
+    width: 190px;
+    height: 100%;
+    background: #ff5000;
+    text-align: center;
+    color: white;
+    font-size: 16px;
+}
+main .main_con>ul {
+    height: 100%;
+    background-image: linear-gradient(to right, #ff8600 , #ff5700);
+}
+main .main_con>ul li {
+    float: left;
+    margin-right: 20px;
+    color: white;
+}
+main .main_con>ul>li:first-child {
+    margin-left: 10px;
+}
+main .main_con>ul li a {
+    color: white;
+}
+
+/* 轮播图等内容 */
+main .screen_outer .serve {
+    box-sizing: border-box;
+    padding: 5px 0px;
+    width: 190px;
+    border: 1px solid #ff5000;
+    border-top: none;
+    background: white;
+}
+main .screen_outer .serve li {
+    width: 100%;
+    height: 33px;
+    line-height: 33px;
+}
+main .screen_outer .serve li:hover {
+    background: red;
+    /* color: white; */
+}
+main .screen_outer .serve li::after {
+    content: '';
+    display: block;
+    clear: both;
+    overflow: hidden;
+}
+main .screen_outer .serve li:last-child {
+    margin-bottom: 0px;
+}
+main .screen_outer .serve li a {
+    margin-left: 15px;
+    float: left;
+    font-size: 15px;
+    color: #666666;         
+}
+main .screen_outer .serve li span {
+    margin-right: 10px;
+    float: right;
+    font-size: 11px;
+    color: #666666;
+}
+
+.screen_outer .loop {
+    box-sizing: border-box;
+    padding: 8px 8px 0px 8px;
+    /* border: 1px solid red; */
+}
+.screen_outer .loop .loop_top {
+    margin-bottom: 10px;
+}
+.screen_outer .loop .loop_top .loop_top_img,
+.screen_outer .loop .loop_bottom .loop_bottom_img {
+    margin-right: 10px;
+}
+
+.screen_outer .loop .loop_bottom h1,
+.screen_outer .loop .loop_bottom h2 {
+    font-size: 12px;
+    color: #666666;
+}
+main .con_right {
+    border: 1px solid black;
+    box-sizing: border-box;
+    padding-top: 8px;
+    float: right;
+    height: 510px;
+    width: calc(100% - 190px - 517px - 184px);
+}
+
+/* 瀑布流 */
+.falls h1 {
+    padding: 13px;
+    font-size: 20px;
+    color: #ff9f00;
+}
+.falls .falls_con div {
+    box-sizing: border-box;
+    padding: 20px;
+    float: left;
+    border: 1px solid red;
+    width: 20%;
+    overflow: hidden;
+}
+
+.falls .falls_con div .store_message {
+    margin-top: 7px;
+    font-size: 14px;
+    color: #666666;
+}
+.falls .falls_con div .money {
+    margin-top: 20px;
+}
+.falls .falls_con div .money span:first-child {
+    float: left;
+    font-size: 20px;
+    color: #f40;
+}
+.falls .falls_con div .money span:last-child {
+    float: right;
+    margin-top: 5px;
+    font-size: 12px;
+    color: #9ca0aa;
+}

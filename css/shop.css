@@ -1,0 +1,97 @@
+main {
+    border: 1px solid #cccccc;
+}
+.title {
+    box-sizing: border-box;
+    padding: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.title .public,
+main .public {
+    width: 14%;
+}
+.title .store_message,
+main .store_message{
+    width: 30%;
+}
+main article {
+    box-sizing: border-box;
+    padding: 20px;
+    border-bottom: 1px solid #cccccc;
+}
+main article>div input {
+    background: white;
+    border: 1px solid #cccccc;
+}
+main article>div a {
+    margin-left: 10px;
+    width: 80px;
+    height: 80px;
+}
+main article>div a img {
+    width: 100%;
+    height: 100%;
+}
+main article .store_message {
+    font-size: 14px;
+}
+main article .store_unit {
+    font-size: 14px;
+    color: #3c3c3c;
+    font-weight: 700;
+}
+main article .money {
+    font-size: 14px;
+    color: #ff4400;
+    font-weight: 700;
+}
+main article a {
+    color: black;
+}
+main article .num input {
+    text-align: center;
+    width: 41px;
+    height: 17px;
+    line-height: 17px;
+}
+footer {
+    height: 50px;
+    background: #e5e5e5;
+    line-height: 50px;
+    font-size: 15px;
+}
+footer .all {
+    margin-right: 20px;
+}
+footer .all input {
+    margin-right: 5px;
+    margin-top: 18px;
+}
+footer>a {
+    color: black;
+    margin-right: 20px;
+}
+footer .nowSelStor {
+    margin-left: 315px;
+    margin-right: 55px;
+}
+footer .nowSelStor span:nth-child(2) {
+    font-size: 20px;
+    color: #ff4400;
+}
+footer .allMoney .money {
+    font-size: 25px;
+    color: #ff4400;
+}   
+footer button {
+    height: 100%;
+    width: 120px;
+    text-align: center;
+    background: #ff4400;
+    color: white;
+    outline: none;
+    border: none;
+    font-size: 20px;
+    letter-spacing: 10px;
+}

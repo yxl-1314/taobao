@@ -1,0 +1,43 @@
+main {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding: 10px 0px;
+    border-top: 1px solid #e8e8e8;
+    border-bottom: 1px solid #e8e8e8;
+}
+main .store_message {
+    display: block;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    padding: 10px;
+    width: 18%;
+    border: 1px solid #e8e8e8;
+}
+main .store_message .store_money {
+    margin-top: 20px;
+    display: block;
+    font-size: 16px;
+    font-weight: 700;
+    color: #f40;
+}
+main .store_message .store_name {
+    margin-top: 5px;
+    display: block;
+    font-size: 12px;
+    color: #000000;
+}
+main .store_message .store_shop {
+    margin-top: 8px;
+}
+main .store_message .store_shop a:first-child {
+    font-size: 12px;
+    color: #888888;
+    float: left;
+}
+main .store_message .store_shop a:last-child {
+    font-size: 12px;
+    color: #888888;
+    float: right;
+}
